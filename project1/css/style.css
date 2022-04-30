@@ -1,0 +1,227 @@
+@font-face {
+    font-family: Vazir;
+    src: url('/fonts/Vazir.eot');
+    src: url('/fonts/Vazir.woff2') format('embedded-opentype'),
+        url('/fonts/Vazir.woff') format('woff'),
+        url('/fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+body {
+    font-family: vazir;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+/* header */
+header {
+    background-image: url(/img/bakcground-header.jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+header nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 80px;
+}
+
+header nav ul {
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    line-height: 4;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+header nav .logo {
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: left;
+
+
+}
+
+header nav .logo img {
+    width: 80px;
+    margin-top: 5px;
+
+}
+
+header .header-desc {
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    left: 0%;
+    text-align: center;
+
+}
+
+header .header-desc h1 {
+    font-size: 50px;
+}
+
+header .header-desc p {
+    font-size: 25px;
+}
+
+/* our story */
+#our-story {
+    width: 100%;
+    height: 450px;
+    padding: 100px 0;
+}
+
+#our-story .story-desc {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#our-story .story-desc h2 {
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+#our-story .story-desc p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    width: 550px;
+    margin: auto;
+}
+
+#our-story .story-image {
+    width: 50%;
+    float: right;
+}
+
+#our-story .story-image img {
+    width: 100%
+}
+
+/* sweet */
+#sweet {
+    width: 100%;
+    height: 300px;
+    padding: 100px 0;
+    background-image: url(/img/backtwo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#sweet .sweet-desk {
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}
+
+#sweet .sweet-desk h2 {
+    font-size: 45px;
+}
+
+#sweet .sweet-desk p {
+    font-size: 20px;
+    width: 650px;
+    margin: auto;
+}
+
+/* menu */
+#menu {
+    width: 100%;
+    height: 500px;
+    padding: 100px 0;
+}
+
+#menu .menu-desc {
+    width: 50%;
+    float: right;
+
+    text-align: center;
+
+}
+
+#menu .menu-desc h2 {
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+#menu .menu-desc p {
+    line-height: 30px;
+    font-size: 21px;
+    width: 580px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#menu .menu-desc a {
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+    border-bottom:2px solid rgb(179, 32, 76);
+}
+
+
+#menu .menu-img {
+    width: 50%;
+    float: right;
+
+}
+
+#menu .menu-img ul {
+    width: 100%;
+
+}
+
+#menu .menu-img ul li {
+    width: 50%;
+    float: right;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#menu .menu-img img {
+    width: 95%;
+    height: 250px;
+}
